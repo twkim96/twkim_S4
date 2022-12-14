@@ -29,7 +29,7 @@ public class JdbcTemplate {
                 conn.close();
             }
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -39,19 +39,20 @@ public class JdbcTemplate {
                 stmt.close();
             }
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
-    public static void close(ResultSet resultSet) {
+    public static void close(ResultSet rset) {
         try {
-            if (resultSet != null && !resultSet.isClosed()) {
-                resultSet.close();
+            if (rset != null && !rset.isClosed()) {
+                rset.close();
             }
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
+
 
     public static void commit(Connection connection) {
         try {

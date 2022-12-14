@@ -10,6 +10,22 @@ public class Member {
 
     public Member() {}
 
+    public String getId() {
+        return id;
+    }
+
+    public String getPasswd() {
+        return passwd;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
     public static class Builder{
         private final String id;
         private String passwd;

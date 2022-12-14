@@ -1,33 +1,16 @@
 package com.kh.test.dto;
 
-import com.kh.test.domain.Member;
-
-import java.io.Serial;
-
-public class MemberDto implements java.io.Serializable{
-    @Serial
-    private static final long serialVersionUID = 1L;
+public class MemberDtoRequest {
     private String id;
     private String passwd;
     private String name;
     private String email;
-    public MemberDto(){}
 
-    public MemberDto(String id, String passwd, String name, String email) {
+    public MemberDtoRequest(String id, String passwd, String name, String email) {
         this.id = id;
         this.passwd = passwd;
         this.name = name;
         this.email = email;
-    }
-
-    @Override
-    public String toString() {
-        return "MemberDto{" +
-                "id='" + id + '\'' +
-                ", passwd='" + passwd + '\'' +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                '}';
     }
 
     public String getId() {
@@ -60,9 +43,5 @@ public class MemberDto implements java.io.Serializable{
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public Member toDomain(){
-        return new Member.Builder(id).setName(name).setEmail(email).setPasswd(email).build();
     }
 }

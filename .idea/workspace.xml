@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="khbook2047:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305a8116-af53-4c78-ab91-48b2d3c2bee7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/test/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/test/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/test/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/jdbcDriver/JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/jdbcDriver/driver.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/test/dto/MemberDtoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/test/repository/MemberDbRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/test/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/test/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/test/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/test/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/test/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/test/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/test/dto/MemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/jdbcDriver/JdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/jdbcDriver/JdbcTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -164,7 +177,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670921814941</updated>
       <workItem from="1670921816131" duration="5324000" />
-      <workItem from="1670947301481" duration="1360000" />
+      <workItem from="1670947301481" duration="2479000" />
+      <workItem from="1670949797134" duration="4995000" />
     </task>
     <servers />
   </component>
@@ -181,5 +195,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/khbook2047$Tomcat_9_0_67.ic" NAME="Tomcat 9.0.67 Coverage Results" MODIFIED="1670949605358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
